@@ -1,0 +1,27 @@
+.title {
+  font-family: "Inter";
+  margin-top: 3em;
+}
+h2 {
+  font-size: 30px;
+  width: 415px;
+  height: 36px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.descraption {
+  width: 400px;
+  height: 56px;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 25px;
+  color: #8692A6;
+  font-style: normal;
+font-weight: normal;
+margin-top: 10px;
+}

@@ -1,0 +1,13 @@
+.orLine{
+    display: flex;
+    justify-content: center;
+}
+.or {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #bababa;
+}
