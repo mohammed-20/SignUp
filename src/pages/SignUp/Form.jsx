@@ -3,17 +3,23 @@ import React, { Component } from "react";
 import Input from "../../Components/Input";
 import Checkbox from "../../Components/Checkbox";
 import Button from "../../Components/Button";
-
+import OrText from "../../Components/OrText";
+import GoogleButton from "../../Components/Button/GoogleBtn";
 import "./style.css";
+
 const insstate = { email: "", password: "", rePassword: "", checked: "" };
 
 class Form extends Component {
   state = insstate;
   handleChange = (e) => {
-    const { value, name } = e.target;
-    this.setState({ [name]: value });
+    const { value, name, checked } = e.target;
+    let _value = value;
+    if (name === "checked") {
+      _value = checked;
+    }
+    this.setState({ [name]: _value });
   };
-  handleClick = (e) => {
+  handleSubmit = (e) => {
     e.preventDefault();
     alert("Your request has been sent");
   };
@@ -21,7 +27,7 @@ class Form extends Component {
   render() {
     const { email, password, checked, rePassword } = this.state;
     return (
-      <form className="content-form form-include">
+      <form className="content-form form-include" onSubmit={this.handleSubmit}>
         <Input
           handleChange={this.handleChange}
           name="email"
@@ -56,8 +62,9 @@ class Form extends Component {
           type="checkbox"
           labelTxt="I agree to terms & conditions"
         />
-
-        <Button handleClick={this.handleClick} />
+        <Button type="submt">Register Account</Button>
+        <OrText />
+        <GoogleButton />
       </form>
     );
   }

@@ -12,10 +12,12 @@
   line-height: 19px;
   align-items: center;
   margin-left: 1em;
-  color: #8692A6;
-  
+  color: #8692a6;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
 }
-.textBack:hover{
+.textBack:hover {
   text-decoration: underline;
 }
-

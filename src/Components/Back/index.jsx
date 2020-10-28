@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
-function Back() {
+
+export default function Back(props) {
+  const { handleClick, name } = props;
   return (
     <div className="back">
       <svg
@@ -16,8 +18,9 @@ function Back() {
         />
       </svg>
 
-      <p className="textBack">Back</p>
+      <button className="textBack" onClick={handleClick} name={name}>
+        Back
+      </button>
     </div>
   );
 }
-export default Back;

@@ -1,6 +1,6 @@
-.orLine{
-    display: flex;
-    justify-content: center;
+.orLine {
+  display: flex;
+  justify-content: center;
 }
 .or {
   text-align: center;
@@ -10,4 +10,5 @@
   line-height: 15px;
   font-weight: 400;
   color: #bababa;
+  margin-top: 4em;
 }

@@ -5,19 +5,19 @@
   display: flex;
   flex-direction: column;
   width: 642px;
-  height: 900px;
+  height: 942px;
   background-color: #1565d8;
 }
 .backgroundImage {
   position: absolute;
   width: 642px;
-  height: 900px;
-  background: url("../../Components/image/Rectangle\ 31.png");
+  height: 942px;
+  background: url("../../image/Rectangle31.png");
   opacity: 0.2;
 }
 .rightside {
   width: 50%;
-  height: 900px;
+  height: 942px;
 }
 .logo {
   margin: 61px 0 0 89px;
@@ -48,8 +48,13 @@
   font-size: 16px;
   line-height: 19px;
   align-items: center;
-  color: #696F79;
+  color: #696f79;
 }
-.checkbox input{
+.checkbox input {
   cursor: pointer;
+}
+.title {
+  font-family: "Inter";
+  margin-top: 3em;
+  text-align: center;
 }

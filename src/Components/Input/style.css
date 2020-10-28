@@ -1,12 +1,10 @@
 .form-style {
   display: flex;
   flex-direction: column;
-   
 }
 .form-include {
   display: flex;
   flex-direction: column;
-  
 }
 .input-form {
   width: 426px;
@@ -27,7 +25,6 @@
   align-items: center;
   color: #2d2e2e;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-
+  font-weight: 500;
+  font-size: 16px;
 }

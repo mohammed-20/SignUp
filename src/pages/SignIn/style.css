@@ -1,0 +1,37 @@
+.signIn {
+  display: flex;
+}
+.leftsideSignIn {
+  display: flex;
+  flex-direction: column;
+  width: 642px;
+  height: 900px;
+}
+
+.rightSideSignIn {
+  width: 50%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title1 {
+  font-family: "Inter";
+  margin-top: 3em;
+  text-align: center;
+  margin-left: 6em;
+}
+.title-signIn{
+  margin-left: 3em;
+}
+.Large-Logo {
+  margin: 50px 0 0 29px;
+}
+.img-game {
+  width: 336px;
+height: 418px;
+margin-left: 18em;
+}
+.login{
+  margin-top: 3em;
+}
