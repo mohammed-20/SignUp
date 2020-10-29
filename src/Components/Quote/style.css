@@ -10,6 +10,18 @@
   font-style: normal;
 font-weight: normal;
 }
+.quote-signIn {
+  line-height: 38px;
+  margin-top: 3em;
+  width: 460px;
+  height: 164px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  margin-left: 2em;
+  color: #696f79;
+  font-style: italic;
+  font-weight: normal;
+}
 .hideo {
   margin-top: 3em;
 }

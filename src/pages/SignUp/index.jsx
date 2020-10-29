@@ -1,7 +1,7 @@
 import React from "react";
 
-import Logo from "../../Components/Logo";
-import Quote from "../../Components/Quote";
+import { Logo } from "../../Components/Logo";
+import { Quote } from "../../Components/Quote";
 import Back from "../../Components/Back";
 import * as T from "../../Components/Typography";
 import Form from "./Form";
@@ -12,7 +12,7 @@ export default function SingUp(props) {
   return (
     <div className="signup">
       <aside className="leftside ">
-        <img className="backgroundImage" />
+        <img className="backgroundImage" alt="img" />
         <Logo size="small" />
         <Quote type="fill" />
       </aside>

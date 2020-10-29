@@ -1,11 +1,13 @@
 import React from "react";
-import Logo from "../../ComponentsSignup/Logo";
+
+import { LargeLogo } from "../../Components/Logo";
 import OrText from "../../Components/OrText";
 import Superscene from "../../image/Superscene.png";
-import Quote from "../../ComponentsSignup/Quote";
-import Icon from "../../ComponentsSignup/SocialMedia";
+import { QuoteSignIn } from "../../Components/Quote";
+import Icon from "../../Components/SocialMedia";
 import * as T from "../../Components/Typography";
 import Form from "./Form";
+
 import "./style.css";
 
 export default function SignIn(props) {
@@ -13,8 +15,8 @@ export default function SignIn(props) {
   return (
     <div className="signIn">
       <aside className="leftsideSignIn ">
-        <Logo size="large" className="Large-Logo" />
-        <Quote type="fill" className="quote-signIn" />
+        <LargeLogo size="large" className="Large-Logo" />
+        <QuoteSignIn type="fill" />
         <img className="img-game" src={Superscene} alt="Superscene" />
       </aside>
 
