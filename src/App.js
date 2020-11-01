@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 
-import "./App.css";
-
 import SignIn from "./pages/SignIn";
 import SingUp from "./pages/SignUp";
+import "./App.css";
 
 export default class App extends Component {
   state = {
