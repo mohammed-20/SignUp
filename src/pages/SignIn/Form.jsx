@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-
 import Input from "../../Components/Input";
-
 import Button from "../../Components/Button";
 import * as T from "../../Components/Typography";
 import "./style.css";
-const insstate = { email: "", password: "", checked: "", checked1: "" };
+const insstate = { email: "", password: "" };
 class Form extends Component {
   state = insstate;
   handleChange = (e) => {
@@ -34,9 +32,10 @@ class Form extends Component {
           type="password"
           placeholder="Password"
           id="password"
-          labelTxt="Choose a password*"
+          labelTxt="Password*"
           value={password}
         />
+
         <Button type="Button">login</Button>
         <T.SubTitle>
           {[
