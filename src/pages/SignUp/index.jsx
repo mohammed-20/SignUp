@@ -7,8 +7,8 @@ import * as T from "../../Components/Typography";
 import Form from "./Form";
 import "./style.css";
 
-export default function SingUp(props) {
-  const { handleClick } = props;
+export default function SignUp(props) {
+  const { handleClick, handleLogin } = props;
   return (
     <div className="signup">
       <aside className="leftside ">
@@ -22,13 +22,13 @@ export default function SingUp(props) {
         <div className="info-form">
           <div className="title">
             <T.H1>Register Individual Account!</T.H1>
-            <T.SubTitle>
+            <T.SubTitle className="sub-title-signup">
               {" "}
               For the purpose of gamers regulation, your details are required.
             </T.SubTitle>
           </div>
 
-          <Form />
+          <Form handleLogin={handleLogin} />
         </div>
       </section>
     </div>

@@ -42,3 +42,14 @@
   text-decoration: none;
   color: #000000;
 }
+.search-btn {
+  background-color: cornflowerblue;
+  color: #ffffff;
+  width: 82px;
+  height: 48px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  margin-left: 30px;
+  cursor: pointer;
+}

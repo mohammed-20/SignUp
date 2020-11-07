@@ -11,7 +11,7 @@ import Form from "./Form";
 import "./style.css";
 
 export default function SignIn(props) {
-  const { handleClick } = props;
+  const { handleLogin } = props;
   return (
     <div className="signIn">
       <aside className="leftsideSignIn ">
@@ -27,7 +27,7 @@ export default function SignIn(props) {
         </div>
         <Icon />
         <OrText />
-        <Form handleClick={handleClick} />
+        <Form handleLogin={handleLogin} />
       </section>
     </div>
   );

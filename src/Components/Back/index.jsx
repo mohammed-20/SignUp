@@ -1,8 +1,8 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import "./style.css";
 
-export default function Back(props) {
-  const { handleClick, name } = props;
+function Back(props) {
   return (
     <div className="back">
       <svg
@@ -18,9 +18,10 @@ export default function Back(props) {
         />
       </svg>
 
-      <button className="textBack" onClick={handleClick} name={name}>
+      <button onClick={() => props.history.goBack()} className="textBack">
         Back
       </button>
     </div>
   );
 }
+export default withRouter(Back);

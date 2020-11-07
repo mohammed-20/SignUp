@@ -8,5 +8,5 @@ export const H1 = (props) => {
 
 export const SubTitle = (props) => {
   const { children, className } = props;
-  return <p className={`sub-title ${className}`}>{children}</p>;
+  return <p className={`sub ${className}`}>{children}</p>;
 };
